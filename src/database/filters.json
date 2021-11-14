@@ -1,0 +1,52 @@
+{
+  "filters": {
+    "categories": [
+      {
+        "id": "d7e4e47d-fdc5-4994-abc6-e7d0b60abf05",
+        "name": "People"
+      },
+      {
+        "id": "2a763e7d-bb1e-4a11-90ba-b68d4b0afe3c",
+        "name": "Premium"
+      },
+      {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      {
+        "id": "8965476f-8372-4595-a721-8b838a472887",
+        "name": "Landmarks"
+      },
+      {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      }
+    ],
+    "priceRange": [
+      {
+        "id": "350fc015-83f4-44dc-abc8-2d01272d83c8",
+        "name": "Lower than $20"
+      },
+      {
+        "id": "0498b5c2-9234-491a-81a1-9efb842f710d",
+        "name": "$20 - $100"
+      },
+      {
+        "id": "3af7c54b-f9a2-40ca-9870-dcaa1b57f89c",
+        "name": "$100 - $200"
+      },
+      {
+        "id": "23eb7055-163a-40a6-9717-74b50d8aa2e2",
+        "name": "More than $200"
+      }
+    ]
+  }
+}

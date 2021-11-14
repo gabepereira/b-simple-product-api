@@ -1,0 +1,40 @@
+{
+  "featuredProduct": {
+    "id": "dddf3e27-e7cb-4265-a2c9-4a5b8109bca0",
+    "name": "Sleek Wooden Ball",
+    "category": {
+      "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+      "name": "Food"
+    },
+    "price": "88.00",
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/2187304/pexels-photo-2187304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "product-shiba-2"
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": {
+      "dimensions": {
+        "width": 650,
+        "height": 940
+      },
+      "size": 15,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "recommendations": [
+        {
+          "src": "http://placeimg.com/650/940?random=100",
+          "alt": "image-dddf3e27-e7cb-4265-a2c9-4a5b8109bca0"
+        },
+        {
+          "src": "http://placeimg.com/650/940?random=400",
+          "alt": "image-dddf3e27-e7cb-4265-a2c9-4a5b8109bca0"
+        },
+        {
+          "src": "http://placeimg.com/650/940?random=900",
+          "alt": "image-dddf3e27-e7cb-4265-a2c9-4a5b8109bca0"
+        }
+      ]
+    }
+  }
+}

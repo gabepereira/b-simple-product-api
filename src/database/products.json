@@ -1,0 +1,648 @@
+{
+  "products": [
+    {
+      "id": "5e7c51cc-4ec9-414a-87d8-682165354e81",
+      "name": "Awesome Fresh Towels",
+      "category": {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      "price": "27.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=184",
+        "alt": "image-5e7c51cc-4ec9-414a-87d8-682165354e81"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "c94a89eb-79f0-4954-9417-91655c7a2b2b",
+      "name": "Licensed Plastic Mouse",
+      "category": {
+        "id": "2a763e7d-bb1e-4a11-90ba-b68d4b0afe3c",
+        "name": "Premium"
+      },
+      "price": "12.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=64",
+        "alt": "image-c94a89eb-79f0-4954-9417-91655c7a2b2b"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "41d3a1bd-d1cb-4c9f-a4ee-be8646721382",
+      "name": "Practical Fresh Chair",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "72.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=520",
+        "alt": "image-41d3a1bd-d1cb-4c9f-a4ee-be8646721382"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "11b0110e-b1d9-4d56-ae62-8802bb4840d8",
+      "name": "Incredible Soft Shirt",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "172.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=386",
+        "alt": "image-11b0110e-b1d9-4d56-ae62-8802bb4840d8"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "4f591513-619d-41e4-b818-5686431fbecd",
+      "name": "Fantastic Steel Ball",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "185.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=811",
+        "alt": "image-4f591513-619d-41e4-b818-5686431fbecd"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "a3243a6a-3364-4cc6-a92d-d289591b581a",
+      "name": "Handmade Cotton Gloves",
+      "category": {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      "price": "19.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=580",
+        "alt": "image-a3243a6a-3364-4cc6-a92d-d289591b581a"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "b1256e94-6c20-47ac-915d-f7cd07e5883b",
+      "name": "Rustic Rubber Bike",
+      "category": {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      "price": "210.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=173",
+        "alt": "image-b1256e94-6c20-47ac-915d-f7cd07e5883b"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "3c7d9db9-7305-4b5c-8bb7-6226275d7e32",
+      "name": "Incredible Granite Hat",
+      "category": {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      "price": "166.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=859",
+        "alt": "image-3c7d9db9-7305-4b5c-8bb7-6226275d7e32"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "ac2eca2a-f37e-437a-b4cd-59f7ef35fa2c",
+      "name": "Awesome Rubber Towels",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "173.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=151",
+        "alt": "image-ac2eca2a-f37e-437a-b4cd-59f7ef35fa2c"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "1afbabc4-fa40-4b00-938f-031550af5020",
+      "name": "Awesome Metal Chicken",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "180.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=772",
+        "alt": "image-1afbabc4-fa40-4b00-938f-031550af5020"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "7634308b-74e3-4578-9c93-28c3f1926d42",
+      "name": "Incredible Plastic Car",
+      "category": {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      "price": "249.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=54",
+        "alt": "image-7634308b-74e3-4578-9c93-28c3f1926d42"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "b47c880f-0b26-4b71-b366-7408f79fb24f",
+      "name": "Refined Cotton Pants",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "258.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=675",
+        "alt": "image-b47c880f-0b26-4b71-b366-7408f79fb24f"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "6dcb4ffc-e087-42ae-9ce6-758c0a570e64",
+      "name": "Handcrafted Wooden Chicken",
+      "category": {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      "price": "230.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=491",
+        "alt": "image-6dcb4ffc-e087-42ae-9ce6-758c0a570e64"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "90741e67-978a-4d2d-aa83-c5ffcb86aa79",
+      "name": "Ergonomic Metal Pants",
+      "category": {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      "price": "47.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=54",
+        "alt": "image-90741e67-978a-4d2d-aa83-c5ffcb86aa79"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "28427a5a-470e-41ba-9da2-931df6e01fa8",
+      "name": "Rustic Frozen Tuna",
+      "category": {
+        "id": "8965476f-8372-4595-a721-8b838a472887",
+        "name": "Landmarks"
+      },
+      "price": "262.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=33",
+        "alt": "image-28427a5a-470e-41ba-9da2-931df6e01fa8"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "ac07ccdc-33f2-4f2b-9144-f25912d45779",
+      "name": "Small Cotton Shirt",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "138.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=199",
+        "alt": "image-ac07ccdc-33f2-4f2b-9144-f25912d45779"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "aa7ba104-2113-447f-ab1f-6750ee9b85ee",
+      "name": "Unbranded Metal Keyboard",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "208.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=763",
+        "alt": "image-aa7ba104-2113-447f-ab1f-6750ee9b85ee"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "7061e960-bbba-499b-baf5-d8b08cebac23",
+      "name": "Handcrafted Plastic Salad",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "124.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=971",
+        "alt": "image-7061e960-bbba-499b-baf5-d8b08cebac23"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "157adc55-6325-479f-b5b3-03d3491ccd1f",
+      "name": "Fantastic Frozen Bacon",
+      "category": {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      "price": "297.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=305",
+        "alt": "image-157adc55-6325-479f-b5b3-03d3491ccd1f"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "cb8af8e4-6938-4896-82d9-94a2a9c82b5b",
+      "name": "Gorgeous Granite Sausages",
+      "category": {
+        "id": "d7e4e47d-fdc5-4994-abc6-e7d0b60abf05",
+        "name": "People"
+      },
+      "price": "98.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=285",
+        "alt": "image-cb8af8e4-6938-4896-82d9-94a2a9c82b5b"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "4d2a37b3-c113-4359-92af-7cee8ded25ce",
+      "name": "Awesome Frozen Keyboard",
+      "category": {
+        "id": "bd07aac5-dba8-4a15-926d-7a94cc3777dc",
+        "name": "Pets"
+      },
+      "price": "264.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=285",
+        "alt": "image-4d2a37b3-c113-4359-92af-7cee8ded25ce"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "a2d8db8a-9c82-49b3-b013-171bcb55f663",
+      "name": "Practical Frozen Pants",
+      "category": {
+        "id": "e8593372-843a-484c-b1a7-d708d935d541",
+        "name": "Cities"
+      },
+      "price": "1.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=762",
+        "alt": "image-a2d8db8a-9c82-49b3-b013-171bcb55f663"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "a1e51a5a-cdc9-427f-ba93-4da453c61357",
+      "name": "Practical Granite Chips",
+      "category": {
+        "id": "99099ee3-af39-44fd-9f81-4948c7357191",
+        "name": "Nature"
+      },
+      "price": "243.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=286",
+        "alt": "image-a1e51a5a-cdc9-427f-ba93-4da453c61357"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "7a4a9162-82bc-442b-803b-16e71df06ef3",
+      "name": "Unbranded Granite Chicken",
+      "category": {
+        "id": "d7e4e47d-fdc5-4994-abc6-e7d0b60abf05",
+        "name": "People"
+      },
+      "price": "184.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=93",
+        "alt": "image-7a4a9162-82bc-442b-803b-16e71df06ef3"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "a1b50e34-f3b5-46bf-9319-2401e166bb93",
+      "name": "Awesome Soft Table",
+      "category": {
+        "id": "8965476f-8372-4595-a721-8b838a472887",
+        "name": "Landmarks"
+      },
+      "price": "219.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=86",
+        "alt": "image-a1b50e34-f3b5-46bf-9319-2401e166bb93"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "7adccf1b-52ca-4fdf-88f0-358703c1e1e7",
+      "name": "Intelligent Fresh Fish",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "240.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=144",
+        "alt": "image-7adccf1b-52ca-4fdf-88f0-358703c1e1e7"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "273e1bc9-d613-4dbf-92b7-afcc189c43e5",
+      "name": "Practical Granite Chicken",
+      "category": {
+        "id": "2a763e7d-bb1e-4a11-90ba-b68d4b0afe3c",
+        "name": "Premium"
+      },
+      "price": "261.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=510",
+        "alt": "image-273e1bc9-d613-4dbf-92b7-afcc189c43e5"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    },
+    {
+      "id": "51f244bc-65d4-4cf5-9af8-c09384b405e4",
+      "name": "Gorgeous Rubber Computer",
+      "category": {
+        "id": "b56e8990-e7bb-433f-996c-a261ae80ea2a",
+        "name": "Food"
+      },
+      "price": "5.00",
+      "currency": "USD",
+      "image": {
+        "src": "http://placeimg.com/650/940?random=111",
+        "alt": "image-51f244bc-65d4-4cf5-9af8-c09384b405e4"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 650,
+          "height": 940
+        },
+        "size": 15000
+      }
+    }
+  ]
+}
