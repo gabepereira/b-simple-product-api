@@ -1,10 +1,12 @@
 const express = require("express");
-
+var cors = require("cors");
 const filters = require("./database/filters.json");
 const featuredProduct = require("./database/featuredProduct.json");
-const products = require("./database/products.json");
+const data = require("./database/products.json");
 
 const app = express();
+
+app.use(cors());
 
 app.get("/", async (req, res) => {
   res.status(200).json({ ok: true });
