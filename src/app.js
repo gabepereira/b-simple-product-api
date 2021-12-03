@@ -27,7 +27,14 @@ app.get("/featuredProduct", async (req, res) => {
 
 app.post("/products", async (req, res) => {
   try {
-    const { selectedCategories, selectedPriceRange } = req.body;
+    const {
+      selectedCategories,
+      selectedPriceRange,
+      selectedSortingOptions: [sortingOption = "price"],
+      sortingOrder,
+    } = req.body;
+
+    console.log(sortingOption, sortingOrder);
 
     const { products } = data;
 
@@ -41,11 +48,9 @@ app.post("/products", async (req, res) => {
       const selectedPriceMatchers = priceRangeMatchers.filter((matcher) =>
         selectedPriceRange.includes(matcher.id)
       );
-      console.log(selectedPriceMatchers);
+
       return items.filter(({ price }) => {
         const priceValue = Number(price);
-
-        console.log(priceValue);
 
         return selectedPriceMatchers.some(
           ({ min, max }) => priceValue > min && priceValue < max
