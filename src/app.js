@@ -36,7 +36,7 @@ app.post("/products", async (req, res) => {
 
     console.log(sortingOption, sortingOrder);
 
-    const { products } = data;
+    let { products } = data;
 
     const filterByCategory = (items) => {
       return items.filter(({ category }) =>
@@ -58,25 +58,38 @@ app.post("/products", async (req, res) => {
       });
     };
 
+    // Filter by category
     if (selectedCategories.length && !selectedPriceRange.length) {
-      return res.status(200).json({
-        products: filterByCategory(products),
-      });
+      products = filterByCategory(products);
     }
 
+    // Filter by price range
     if (selectedPriceRange.length && !selectedCategories.length) {
-      return res.status(200).json({
-        products: filterByPriceRange(products),
-      });
+      products = filterByPriceRange(products);
     }
 
+    // Filter both
     if (selectedCategories.length && selectedPriceRange.length) {
-      return res.status(200).json({
-        products: filterByCategory(filterByPriceRange(products)),
+      products = filterByCategory(filterByPriceRange(products));
+    }
+
+    // Sort by price
+    if (sortingOption === "price") {
+      console.log("cannot sort by price yet");
+    }
+
+    // Sort by alphabet
+    if (sortingOption === "alpha") {
+      products.sort((a, b) => {
+        return sortingOrder === "ASC"
+          ? a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+          : b.name.toLowerCase().localeCompare(a.name.toLowerCase());
       });
     }
 
-    res.status(200).json(data);
+    res.status(200).json({
+      products,
+    });
   } catch (error) {
     console.log(error);
     res.status(400).json(error);
