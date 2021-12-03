@@ -75,16 +75,20 @@ app.post("/products", async (req, res) => {
 
     // Sort by price
     if (sortingOption === "price") {
-      console.log("cannot sort by price yet");
+      products.sort((a, b) =>
+        sortingOrder === "ASC"
+          ? Number(a.price) < Number(b.price)
+          : Number(a.price) > Number(b.price)
+      );
     }
 
     // Sort by alphabet
     if (sortingOption === "alpha") {
-      products.sort((a, b) => {
-        return sortingOrder === "ASC"
+      products.sort((a, b) =>
+        sortingOrder === "ASC"
           ? a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-          : b.name.toLowerCase().localeCompare(a.name.toLowerCase());
-      });
+          : b.name.toLowerCase().localeCompare(a.name.toLowerCase())
+      );
     }
 
     res.status(200).json({
