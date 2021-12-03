@@ -47,6 +47,7 @@
         "id": "23eb7055-163a-40a6-9717-74b50d8aa2e2",
         "name": "More than $200"
       }
-    ]
+    ],
+    "sortingOptions": ["price", "alpha"]
   }
 }
