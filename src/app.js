@@ -6,6 +6,8 @@ const filters = require("./database/filters.json");
 const featuredProduct = require("./database/featuredProduct.json");
 const data = require("./database/products.json");
 
+const priceRangeMatchers = require("./utils/priceRangeMatchers");
+
 const app = express();
 
 app.use(cors());
@@ -39,9 +41,11 @@ app.post("/products", async (req, res) => {
       const selectedPriceMatchers = priceRangeMatchers.filter((matcher) =>
         selectedPriceRange.includes(matcher.id)
       );
-
+      console.log(selectedPriceMatchers);
       return items.filter(({ price }) => {
         const priceValue = Number(price);
+
+        console.log(priceValue);
 
         return selectedPriceMatchers.some(
           ({ min, max }) => priceValue > min && priceValue < max
@@ -69,6 +73,7 @@ app.post("/products", async (req, res) => {
 
     res.status(200).json(data);
   } catch (error) {
+    console.log(error);
     res.status(400).json(error);
   }
 });
