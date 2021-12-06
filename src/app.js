@@ -34,8 +34,6 @@ app.post("/products", async (req, res) => {
       sortingOrder,
     } = req.body;
 
-    console.log(sortingOption, sortingOrder);
-
     let { products } = data;
 
     const filterByCategory = (items) => {
@@ -77,8 +75,8 @@ app.post("/products", async (req, res) => {
     if (sortingOption === "price") {
       products.sort((a, b) =>
         sortingOrder === "ASC"
-          ? Number(a.price) < Number(b.price)
-          : Number(a.price) > Number(b.price)
+          ? Number(a.price) - Number(b.price)
+          : Number(b.price) - Number(a.price)
       );
     }
 
