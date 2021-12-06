@@ -13,7 +13,7 @@
         "src": "https://i.picsum.photos/id/872/650/940.jpg?hmac=Ndv6YsdlDVCmnVSA1wwp1TSq4R2N-Y_FETJmG_iMq24",
         "alt": "image-7b5ab330-13a7-4b6d-9942-b8cf27e5c1c5"
       },
-      "bestseller": false,
+      "bestseller": true,
       "featured": false,
       "details": {
         "dimensions": {
